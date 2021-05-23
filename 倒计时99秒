@@ -3,7 +3,8 @@
 #include <unistd.h>
 int main () {
 	int a;
-    a=99;
+	printf("\n时输入倒计时的秒数：")
+    scanf("%d", &a);
     while(a>=0)
     {
         system("clear");
