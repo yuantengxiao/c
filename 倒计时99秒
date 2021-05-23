@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+int main () {
+	int a;
+    a=99;
+    while(a>=0)
+    {
+        system("clear");
+        printf("%d\n",a);
+        sleep(1);
+        a=a+1;
+        
+        if(a==100){
+            printf("时间到了");
+
+	        return 0;
+        }
+    }
+    return 0;
+}
